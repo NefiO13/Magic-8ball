@@ -1,5 +1,12 @@
-let userName = 'Nefi';
-const userQuestion = 'Will Steph Curry get another ring?';
+
+let userName = prompt('Hello, what is your name?')
+
+userName ? document.getElementById('greeting').innerText=`Hello, ${userName}!`: document.getElementById('greeting').innerText=`Hello stranger!`
+
+function shakeMagicEightBall(){
+//do not touch this code//
+let userQuestion = 'Will Steph Curry get another ring?';
+ 
 let randomNumber = Math.floor(Math.random() * 8);
 let eightBall = '';
 
@@ -36,3 +43,4 @@ console.log(`There appears to be a problem ${userName}! Please contact eight bal
 }
 
 console.log(`Magic Eightball: ${eightBall}`);
+}

@@ -24,30 +24,39 @@ function shakeMagicEightBall() {
     switch (randomNumber) {
         case 0:
             eightBall = 'It is certain';
-            imageChoice = 'image1'
+            imageChoice = 'imgs/itiscertain.jfif'
             break;
         case 1:
             eightBall = 'It is decidedly so';
+            imageChoice = 'imgs/decidedlyso.jfif'
             break;
         case 2:
             eightBall = 'Reply hazy try again';
+            imageChoice = 'imgs/tryagain.jfif'
             break;
         case 3:
             eightBall = 'Cannot predict now';
+            imageChoice = 'cannotpredict.jfif'
             break;
         case 4:
             eightBall = 'Do not count on it';
+            imageChoice = 'dontcountonit.jfif'
             break;
         case 5:
             eightBall = 'My sources say no';
+            imageChoice = 'sayno.jfif'
             break;
         case 6:
             eightBall = 'Outlook not so good';
+            imageChoice = 'notsogood.jfif'
             break;
         case 7:
             eightBall = 'Signs point to yes';
+            imageChoice = 'pointyes.jfif'
         default:
             console.log(`There appears to be a problem ${userName}! Please contact eight ball services.`);
+            eightBall = 'Error';
+            imageChoice = 'error.jfif'
     }
 
     console.log(`Magic Eightball: ${eightBall}`);

@@ -9,7 +9,7 @@ background-color: #f0f8ff;
 
 #Magic-Eight-Ball {
     text-align: center;
-    background: white;
+    background: rgb(206, 20, 20);
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

@@ -26,7 +26,7 @@ background-color: #ff6262;
     margin-top: 20px;
 }
 
-.btn-success {
+.btn-light {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 1rem;
@@ -38,7 +38,7 @@ background-color: #ff6262;
     cursor: pointer;
 }
 
-.btn-success:hover {
+.btn-light:hover {
     background: #e24444;
     transform: scale(1.1);
 }

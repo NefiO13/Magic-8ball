@@ -4,17 +4,20 @@ margin: 0;
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: #9ddda2;
+background-color: #ff6262;
 }
 
-div#Magic-Eight-Ball {
+#Magic-Eight-Ball {
     text-align: center;
     background-color: rgb(206, 20, 20);
+    margin: 90px;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
+*, ::after, ::before {
+    box-sizing: content-box;
+}
 #response-img {
     width:300px;
     height: 300px;
@@ -23,23 +26,38 @@ div#Magic-Eight-Ball {
     margin-top: 20px;
 }
 
-button {
+.btn-success {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 1rem;
     border: none;
     border-radius: 5px;
-    background: #28a745;
+    background: #e96d6d;
     color: white;
     transition: all 0.3s ease;
     cursor: pointer;
 }
 
-button:hover {
-    background: #218838;
+.btn-success:hover {
+    background: #e24444;
     transform: scale(1.1);
 }
 
-button:active{
-    background: #1e7e34;
+
+.fixed-bottom {
+    text-align: center;
+}
+
+h1 {
+    font-family: "vincente", serif;
+    font-size: 150px;
+        font-weight: 700;
+        font-style: normal;
+}
+
+p {
+    font-family: "operetta-12", serif;
+    font-size: 30px;
+        font-weight: 900px;
+        font-style: normal;
 }
